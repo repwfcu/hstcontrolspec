@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap");
+body{
+	/*overflow: hidden !important;*/
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #5e6566;	
+}
+
+.bg-white, .bg-white2  {
+    background-color: #fff!important;
+    color: black;
+align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;    
+}
+
+.bg-white .drivelogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.bg-white .right-bar {
+    margin: 0 20px;
+}
+
+.bg-white .right-bar .menubar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #ebecec;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.drivelogo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*margin-left: -100px;	*/
+}
+
+.drivelogo img{
+	max-width: 70%;
+    /*margin-left: -100px;	*/
+}
+
+.menubar img{
+	max-width: 23px;
+}
+
+.bg-white2 .shared{
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.download span {
+  margin: 0px 40px 2px 20px;
+  font-size: 14px;
+}
+
+ .download span a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.subheading{
+  margin: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    font
+}
+#imagerow{
+  padding-top: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+.ikon{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #dddddd;
+  margin: 0 10px;
+  padding: 10px;
+  text-align: left;    
+}
+figure{
+border: 1px solid #dddddd;
+    border-radius: 5px;
+    cursor: pointer;
+    /*width: 227px;  */
+}
+
+.figure-img {
+    margin-bottom: 0rem !important;
+    /*line-height: 1;*/
+}
+.figure-caption {
+    font-size: 100%;
+    color: #535a5a;
+    padding: 14px;
+    /*font-size: 15px;*/
+}
+.ikon{
+
+}
+.ikon img{
+  padding-right: 7px;
+  margin-top: -3px;
+}
